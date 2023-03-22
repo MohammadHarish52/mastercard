@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color:rgba(255, 255, 255, 0.932);
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(105, 110, 114);
+}
+.card{
+    height: 225px;
+    width: 355px;
+    background-color: black;
+    border-radius: 28px;
+    box-shadow: 35px 35px 5px rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.1);
+   
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width:48px;
+    margin-right: 10px;;
+}
+header .chip{
+    width:60px;
+}
+.card header{
+    display: flex;
+    justify-content: space-between;
+    padding:26px 26px;
+}
+h5{
+    font-size: 14.5px;
+    font-weight: 400;
+}
+.number{
+    padding-left:24px;
+    line-height: 1.5rem;
+}
+.number h6{
+    font-weight: 300;
+}
+.number h4{
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+.card .name{
+    display: flex;
+    justify-content: space-between;
+    padding:26px 24px 0 24px;
+     
+}
+.name h4{
+    font-weight: 300;
+    margin-top: 8px;
+}
+.validname{
+    margin-top:-6px;
+    
+}
+.name h6{
+    font-weight: 400;
+}
+.name h5{
+    font-weight:lighter;
+    margin-bottom:35px
+}
+
